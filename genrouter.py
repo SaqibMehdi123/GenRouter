@@ -6,7 +6,7 @@ import os
 # --- App Config ---
 st.set_page_config(page_title="Unified Task Router", layout="centered")
 
-# --- Image Setup (Chatbot Icon) ---
+# --- (Chatbot Icon) ---
 image_path = "chatbot_icon.png"  # Replace with your image path
 if os.path.exists(image_path):
     with open(image_path, "rb") as img_file:
