@@ -4,7 +4,7 @@ import base64
 import os
 
 # --- App Config ---
-st.set_page_config(page_title="Unified Task Router", layout="centered")
+st.set_page_config(page_title="🤖 GenRouter - Virtual Assistant", layout="centered")
 
 # --- Chatbot Icon & Title ---
 image_path = "chatbot_icon.png"
