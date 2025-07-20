@@ -7,7 +7,7 @@ import os
 st.set_page_config(page_title="🤖 GenRouter - Virtual Assistant", layout="centered")
 
 # --- Chatbot Icon & Title ---
-image_path = "chatbot_icon.png"
+image_path = "bot.png"
 if os.path.exists(image_path):
     with open(image_path, "rb") as img_file:
         b64_image = base64.b64encode(img_file.read()).decode()
@@ -18,7 +18,7 @@ if os.path.exists(image_path):
     """, unsafe_allow_html=True)
 
 # Centered Title
-st.markdown("<h1 style='text-align: center; margin-bottom: 0;'>🤖 GenRouter</h1>", unsafe_allow_html=True)
+# st.markdown("<h1 style='text-align: center; margin-bottom: 0;'>GenRouter</h1>", unsafe_allow_html=True)
 
 # --- CSS Styling ---
 st.markdown("""
