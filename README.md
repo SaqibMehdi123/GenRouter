@@ -28,8 +28,8 @@ GenRouter is a customizable, lightweight Streamlit-based virtual assistant desig
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/genrouter-assistant.git
-cd genrouter-assistant
+git clone https://github.com/SaqibMehdi123/GenRouter---Virtual-Assistant.git
+cd GenRouter---Virtual-Assistant
 ```
 
 ### 2. Create & Activate a Virtual Environment (Optional but Recommended)
