@@ -58,6 +58,8 @@ streamlit run app.py
 ```
 Replace app.py with your filename if different.
 
+---
+
 ## 🖼️ UI Layout
 - Centered Title & Logo
 - Selectbox for Task Type
@@ -65,14 +67,20 @@ Replace app.py with your filename if different.
 - Text Area Input
 - Stylized Chat Box with Bot and User Messages
 
+---
+
 ## ⚙️ Code Structure
 - route_prompt() handles prompt formatting based on task type.
 - query_ollama() sends the prompt to the local LLM via REST API.
 - HTML & CSS embedded in Streamlit for clean UI styling.
 - Chat interaction is shown in a neatly styled box.
 
+---
+
 ## 🧑‍💻 Author
 Made by [Saqib Mehdi](https://github.com/SaqibMehdi123)
+
+---
 
 ## 📜 License
 MIT License — feel free to use and modify!
